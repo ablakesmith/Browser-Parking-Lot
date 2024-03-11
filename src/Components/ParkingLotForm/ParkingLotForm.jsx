@@ -4,9 +4,9 @@ import { Form, Button, FormGroup, Label, Input } from 'reactstrap';
 import './ParkingLotForm.css';
 
 const PRIORITIES = {
-    High: 'High',
-    Medium: 'Medium',
     Low: 'Low',
+    Medium: 'Medium',
+    High: 'High',
 }
 
 export default function ParkingLotForm({ addItem }) {
@@ -78,14 +78,14 @@ export default function ParkingLotForm({ addItem }) {
             <FormGroup className="parking-lot-row d-flex flex-wrap">
                 <div>
                     <Input
-                        name="radio-priority" 
-                        type="radio" 
-                        value={PRIORITIES.High} 
-                        checked={priority === PRIORITIES.High}
+                        name="radio-priority"
+                        type="radio"
+                        value={PRIORITIES.Low}
+                        checked={priority === PRIORITIES.Low}
                         onChange={handlePriorityChange}
-                        id="prio-high" />
+                        id="prio-low" />
                     {' '}
-                    <Label htmlFor="prio-high" className="me-3">High</Label>
+                    <Label htmlFor="prio-low" className="me-3">Low</Label>
                 </div>
                 <div>
                     <Input 
@@ -100,14 +100,14 @@ export default function ParkingLotForm({ addItem }) {
                 </div>
                 <div>
                     <Input
-                        name="radio-priority"
-                        type="radio"
-                        value={PRIORITIES.Low}
-                        checked={priority === PRIORITIES.Low}
+                        name="radio-priority" 
+                        type="radio" 
+                        value={PRIORITIES.High} 
+                        checked={priority === PRIORITIES.High}
                         onChange={handlePriorityChange}
-                        id="prio-low" />
+                        id="prio-high" />
                     {' '}
-                    <Label htmlFor="prio-low" className="me-3">Low</Label>
+                    <Label htmlFor="prio-high" className="me-3">High</Label>
                 </div>
             </FormGroup>
             <Button type="submit">Submit</Button>
