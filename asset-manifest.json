@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/browser-parking-lot/static/css/main.bded1a68.css",
+    "main.js": "/browser-parking-lot/static/js/main.f5b30f01.js",
+    "index.html": "/browser-parking-lot/index.html",
+    "main.bded1a68.css.map": "/browser-parking-lot/static/css/main.bded1a68.css.map",
+    "main.f5b30f01.js.map": "/browser-parking-lot/static/js/main.f5b30f01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bded1a68.css",
+    "static/js/main.f5b30f01.js"
+  ]
+}
