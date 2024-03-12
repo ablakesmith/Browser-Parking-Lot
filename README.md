@@ -11,6 +11,9 @@ Each entry includes:
 
 The Browser Parking Lot serves as a solution to declutter your browser tabs, leading to reduced computer memory consumption. This approach is more efficient than utilizing the browser itself as a to-do list.
 
+### GitHub Pages
+    - https://ablakesmith.github.io/browser-parking-lot/
+
 ## User stories
 
 ```
